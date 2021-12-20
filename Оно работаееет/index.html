@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NastyaGame</title>
+
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+<canvas id="nokey" class="dots"></canvas>
+<div class="container main">
+    <div id="carouselExampleControls" class="row carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/superWapka.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/bf4.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/cat.png" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/wapka1.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/wapka2.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/wapka3.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/wapka4.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/wapka5.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/wapka56.jpg" height="150px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <nav class="row navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <a class="navbar-brand" href="#">NastyaGame</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Library<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recommend.html">Recommend game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Game name..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search game</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+
+    <div class="row">
+        <div class="col-md pl-0 mr-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/petuh.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Counter-Strike: Global Offensive</h5>
+                        <p class="card-text">Жанр: Шутер.
+                            <br> Год выпуска:2013
+                            <br> Разработчик: valve.
+                            <br> <b class="text-danger"> Требовательная </b>
+                            <br></p>
+
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank"> More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md pl-0 ml-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/gta5.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto V</h5>
+                        <p class="card-text">Жанр: Экшен.
+                            <br> Год выпуска:2013
+                            <br> Разработчик: Rockstar Games.
+                            <br> <b class="text-success"> Не требовательная </b>
+                            <br></p>
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/" target="_blank" >More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md pl-0 mr-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/csgo1.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Counter Strike: Source</h5>
+                        <p class="card-text">Жанр: Шутер.
+                            <br> Год выпуска:2004
+                            <br> Разработчик: valve.
+                            <br> <b class="text-success"> Не требовательная </b>
+                            <br></p>
+
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://store.steampowered.com/app/240/CounterStrike_Source/" target="_blank">More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md pl-0 ml-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/nfs.jpg" class=" h-100 card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Need For Speed</h5>
+                        <p class="card-text">Жанр: Гонки.
+                            <br> Год выпуска:2015
+                            <br> Разработчик: Ghost Games.
+                            <br> <b class="text-danger"> Требовательная </b>
+                            <br></p>
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://www.origin.com/rus/ru-ru/store/need-for-speed/need-for-speed" target="_blank">More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md pl-0 mr-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/RDR2.png" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Dead Redemption II </h5>
+                        <p class="card-text">Жанр: Экшен.
+                            <br> Год выпуска:2019
+                            <br> Разработчик: valve.
+                            <br> <b class="text-danger"> Требовательная </b>
+                            <br></p>
+
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://www.rockstargames.com/reddeadredemption2/" target="_blank">More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md pl-0 ml-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/BRD2.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Borderlands</h5>
+                        <p class="card-text">Жанр: Шутер.
+                            <br> Год выпуска:2013
+                            <br> Разработчик: Gearbox Software.
+                            <br> <b class="text-success"> Не требовательная </b>
+                            <br></p>
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://store.steampowered.com/app/49520/Borderlands_2/" target="_blank">More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md pl-0 mr-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/DRK.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Darksiders</h5>
+                        <p class="card-text">Жанр: Экшен.
+                            <br> Год выпуска:2010
+                            <br> Разработчик: Vigil Games.
+                            <br> <b class="text-success"> Не требовательная </b>
+                            <br></p>
+
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://store.steampowered.com/app/50620/Darksiders/" target="_blank">More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md pl-0 ml-2 card mb-3 text-white bg-dark">
+            <div class="row no-gutters h-100">
+                <div class="col-md-4 h-100">
+                    <img src="img/CIV.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Civilization V</h5>
+                        <p class="card-text">Жанр: Стратегия.
+                            <br> Год выпуска:2010
+                            <br> Разработчик: -.
+                            <br> <b class="text-success"> Не требовательная </b>
+                            <br></p>
+                        <p class="card-text">
+                            <a class="btn btn-outline-success px-5" href="https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/" target="_blank">More...</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="row footer bg-dark text-white">
+        <div class="container m-3">
+            <span>Copyright 2019 ©</span>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/dots.js"></script>
+
+</body>
+
+</html>

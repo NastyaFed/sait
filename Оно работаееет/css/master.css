@@ -1,0 +1,54 @@
+body {
+    background-image: url(../img/fon3.png), url(https://api.magicrust.ru/images/newshop/topo.png), url(https://api.magicrust.ru/images/newshop/body.jpg);
+    background-position: 50% 0%, 50% 0%;
+    background-attachment: scroll, scroll;
+    background-repeat: no-repeat;
+}
+
+.main {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    transform: translate(50%);
+    right: 50%;
+    min-height: 100vh;
+    z-index: 12;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.font {
+    font-weight: bold;
+    font-size: large;
+}
+
+.enter {white-space: pre-line;} 
+
+.card-img {
+    height: 100%;
+}
+
+.quiz {
+    border: none;
+    min-height: 500px;
+    width: 100%;
+}
+
+.dots {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    z-index: -1;
+}
+
+footer {
+    margin-top: auto;
+}
